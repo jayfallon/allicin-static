@@ -11,14 +11,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/pingboard/next-pwa-boilerplate.git"
+		"url": "git+https://github.com/jayfallon/allicin-static.git"
 	},
 	"author": "James C Fallon <jayfallon@gmail.com> (https://jayfallon.dev/)",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/pingboard/next-pwa-boilerplate/issues"
+		"url": "https://github.com/jayfallon/allicin-static/issues"
 	},
-	"homepage": "https://next-pwa-boilerplate.now.sh",
+	"homepage": "https://allicin-static.jayfallon1.now.sh/",
 	"dependencies": {
 		"isomorphic-unfetch": "^3.0.0",
 		"next": "^8.0.1",
