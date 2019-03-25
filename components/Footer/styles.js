@@ -1,19 +1,31 @@
 import styled from 'styled-components';
 
 const FooterStyles = styled.footer`
-  background-color: ${props => props.theme.footerBg};
-  padding: 4rem 0 8rem;
+  padding: 12rem 0 8rem;
   .footer__inner {
     margin: ${props => props.theme.pageMargin};
     width: ${props => props.theme.pageWidth};
     color: ${props => props.theme.footerText};
   }
-  .footer__copyright {
-    padding-top: 3rem;
-    font-size: 1.6rem;
+  nav {
+    margin: 0 auto;
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li {
+    padding: 0 1.1rem;
   }
   a {
-    color: ${props => props.theme.footerLinks};
+    color: #1e0dc0;
+    font-size: 1.6rem;
+  }
+  .footer__copyright {
+    padding-top: 3rem;
+    color: var(--CodGray);
+    font-size: 1.6rem;
+    text-align: center;
   }
 `;
 
