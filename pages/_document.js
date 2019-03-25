@@ -123,6 +123,12 @@ export default class MyDocument extends Document {
             integrity="sha384-LRlmVvLKVApDVGuspQFnRQJjkv0P7/YFrw84YYQtmYG4nK8c+M+NlmYDCv0rKWpG"
             crossOrigin="anonymous"
           />
+
+          {/* <link
+            rel="stylesheet"
+            href="https://s3.amazonaws.com/allicin/css/react-sidenav.css"
+          /> */}
+          {/* <link rel="stylesheet" href="./static/styles/react-sidenav.css" /> */}
         </Head>
         <body>
           <Main />

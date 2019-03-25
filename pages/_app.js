@@ -3,7 +3,6 @@ import Head from 'next/head';
 import styled, { createGlobalStyle } from 'styled-components';
 
 import Page from '../components/Page';
-import Nav from '../components/Nav';
 import { title } from './_document';
 
 // Any global CSS variables and selectors we want
@@ -16,8 +15,9 @@ const GlobalStyle = createGlobalStyle`
     --TorreaBay: hsla(226, 90%, 32%, 1);
     --Thunder: hsla(315, 19%, 13%, 1);
     --BlueHaze: hsla(225, 26%, 79%, 1);
-    --background-color: var(--Thunder);
+    --background-color: var(--CatskillWhite);
     --main-background-color: var(--CatskillWhite);
+    --sidenav-background: var(--CodGray);
     --text-color: var(--CodGray);
     --link-color: var(--TorreaBay);
   }
@@ -206,7 +206,6 @@ export default class MyApp extends App {
         </Head>
         <Container>
           <Page>
-            <Nav />
             <Main>
               <Component {...pageProps} router={router} />
             </Main>

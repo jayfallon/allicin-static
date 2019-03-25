@@ -2,14 +2,11 @@ import styled from 'styled-components';
 
 const TermsStyles = styled.section`
   margin: ${props => props.theme.pageMargin};
+  padding: 4rem 0 10rem;
   width: ${props => props.theme.pageWidth};
-  padding: 0 0 10rem;
 
   h2 {
-    background-color: var(--CodGray);
     margin-bottom: 4rem;
-    padding: 2rem 4rem;
-    color: var(--QuarterPearlLusta);
     font-family: source-serif-pro serif;
     font-size: 2.9rem;
     text-transform: uppercase;
