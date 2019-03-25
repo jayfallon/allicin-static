@@ -1,10 +1,10 @@
-import Document, { Head, Main, NextScript } from "next/document";
-import { ServerStyleSheet } from "styled-components";
+import Document, { Head, Main, NextScript } from 'next/document';
+import { ServerStyleSheet } from 'styled-components';
 
-export const title = "Next.js PWA Boilerplate";
+export const title = 'Allicin - Static Demo';
 const description =
-  "Next.js PWA Boilerplate starts your progressive web app off with a perfect Google Lighthouse score.";
-const url = `https://next-pwa-boilerplate.now.sh`;
+  'Allicin is your coursework companion that helps you organize all of your classes, sessions, homework and studying all in one place';
+const url = `https://allicin-static.jayfallon1.now.sh/`;
 const thumbnail = `${url}/static/graphics/thumbnail.png`;
 
 export default class MyDocument extends Document {
@@ -111,6 +111,17 @@ export default class MyDocument extends Document {
             href="./static/graphics/splash-640.png"
             media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)"
             rel="apple-touch-startup-image"
+          />
+
+          {/* Typekit Fonts */}
+          <link rel="stylesheet" href="https://use.typekit.net/izw8rob.css" />
+
+          {/* Font Awesome Stylesheet */}
+          <link
+            rel="stylesheet"
+            href="https://pro.fontawesome.com/releases/v5.6.3/css/all.css"
+            integrity="sha384-LRlmVvLKVApDVGuspQFnRQJjkv0P7/YFrw84YYQtmYG4nK8c+M+NlmYDCv0rKWpG"
+            crossOrigin="anonymous"
           />
         </Head>
         <body>

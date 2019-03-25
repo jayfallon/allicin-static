@@ -7,13 +7,15 @@
 		"build": "next build",
 		"deploy": "now && now alias",
 		"dev": "next",
-		"start": "next start"
+		"start": "next start",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/jayfallon/allicin-static.git"
 	},
-	"author": "James C Fallon <jayfallon@gmail.com> (https://jayfallon.dev/)",
+	"author": "James C. Fallon <jayfallon@gmail.com> (https://jayfallon.dev/)",
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/jayfallon/allicin-static/issues"
@@ -21,6 +23,7 @@
 	"homepage": "https://allicin-static.jayfallon1.now.sh/",
 	"dependencies": {
 		"isomorphic-unfetch": "^3.0.0",
+		"jshint": "^2.10.2",
 		"next": "^8.0.1",
 		"next-offline": "^3.3.1",
 		"prop-types": "^15.6.2",
@@ -30,6 +33,18 @@
 		"styled-components": "^4.2.0"
 	},
 	"devDependencies": {
-		"babel-plugin-styled-components": "^1.10.0"
+		"babel-eslint": "^9.0.0",
+		"babel-plugin-styled-components": "^1.10.0",
+		"eslint": "^5.15.3",
+		"eslint-config-airbnb": "^17.1.0",
+		"eslint-config-prettier": "^4.1.0",
+		"eslint-config-wesbos": "0.0.19",
+		"eslint-plugin-html": "^5.0.3",
+		"eslint-plugin-import": "^2.16.0",
+		"eslint-plugin-jsx-a11y": "^6.2.1",
+		"eslint-plugin-prettier": "^3.0.1",
+		"eslint-plugin-react": "^7.12.4",
+		"eslint-plugin-react-hooks": "^1.6.0",
+		"prettier": "^1.16.4"
 	}
 }
