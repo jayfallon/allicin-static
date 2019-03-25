@@ -9,6 +9,8 @@ import { title } from './_document';
 const GlobalStyle = createGlobalStyle`
   :root {
     font-size: 10px;
+    --RedRed: hsla(0, 100%, 50%, 1);
+    --Lima: hsla(94, 66%, 45%, 1);
     --RoyalBlue: hsla(225, 67%, 53%, 1);
     --Downy: hsla(182, 51%, 62%, 1);
     --QuarterPearlLusta: hsla(43, 100%, 99%, 1);

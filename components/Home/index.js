@@ -1,8 +1,7 @@
 import HomeStyles from './styles';
 import HomeSideNavMenu from './sidenav';
 import PersonalNav from '../PersonalNav';
-
-import Footer from '../Footer';
+import StatusBar from './status-bar';
 
 const Home = () => (
   <HomeStyles>
@@ -13,6 +12,7 @@ const Home = () => (
     </div>
     <div className="main__content--wrapper">
       <PersonalNav />
+      <StatusBar />
       <section>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
