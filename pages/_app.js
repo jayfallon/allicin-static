@@ -14,6 +14,7 @@ const GlobalStyle = createGlobalStyle`
     --CodGray: hsla(345, 14%, 5%, 1);
     --TorreaBay: hsla(226, 90%, 32%, 1);
     --Thunder: hsla(315, 19%, 13%, 1);
+    --BlueHaze: hsla(225, 26%, 79%, 1);
     --background-color: var(--Thunder);
     --main-background-color: var(--CatskillWhite);
     --text-color: var(--CodGray);

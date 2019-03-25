@@ -15,9 +15,9 @@ const theme = {
 
   boxShadow: '0 0.15rem 0.5rem 0 hsla(0, 0%, 0%, 0.25)',
 
-  funBlue: 'hsla(223, 72%, 37%, 1)',
-  thunder: 'hsla(315, 19%, 13%, 1)',
-  footerBg: 'var(--Thunder)',
+  footerBg: 'hsla(315, 19%, 13%, 1)',
+  footerLinks: 'hsla(171, 33%, 96%, 1)',
+  footerText: 'hsla(225, 26%, 79%, 1)',
 };
 
 class Page extends Component {
