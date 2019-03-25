@@ -1,9 +1,9 @@
-import Link from "next/link";
-import styled from "styled-components";
-import { title } from "../pages/_document";
+import Link from 'next/link';
+import styled from 'styled-components';
+import { title } from '../pages/_document';
 
 const Container = styled.nav`
-  background: #ddd;
+  background: yellow;
 `;
 
 const Content = styled.div`
@@ -17,6 +17,7 @@ const Content = styled.div`
 
 const Credits = styled.a`
   margin: 0.5rem 0;
+  color: var(--CodGray);
 `;
 
 const H1 = styled.h1`
@@ -27,7 +28,7 @@ const H1 = styled.h1`
 const Nav = () => (
   <Container>
     <Content>
-      <Link as={`/`} href={`/`}>
+      <Link as="/" href="/">
         <H1>
           <a href="/">{title}</a>
         </H1>
