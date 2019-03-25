@@ -18,16 +18,14 @@ const theme = {
   footerBg: 'hsla(315, 19%, 13%, 1)',
   footerLinks: 'hsla(171, 33%, 96%, 1)',
   footerText: 'hsla(225, 26%, 79%, 1)',
+  sideNavLinks: 'hsla(225, 26%, 79%, 1)',
 };
 
 class Page extends Component {
   render() {
     return (
       <ThemeProvider theme={theme}>
-        <>
-          {this.props.children}
-          <Footer />
-        </>
+        <>{this.props.children}</>
       </ThemeProvider>
     );
   }

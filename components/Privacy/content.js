@@ -228,7 +228,7 @@ const PrivacyContent = () => (
       If you have any questions about this Privacy Policy, please contact us:
     </p>
     <ul>
-      <li>By email: jayfallon@gmail.com</li>
+      <li>By email: privacy@allicin.io</li>
     </ul>
   </PrivacyStyles>
 );
