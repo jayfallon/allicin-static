@@ -10,11 +10,9 @@ const theme = {
   aboutGridText: 'hsla(0, 0%, 35%, 1)',
   aboutGridBorder: 'hsla(0, 0%, 80%, 1)',
   pageMargin: '0 auto',
-  pageWidth: '92.8rem',
+  pageWidth: '96rem',
   pagePadding: '0 1.6rem',
-  flatWhite: 'hsla(0, 100%, 100%, 1)',
-  braveBlue: 'hsla(212, 98%, 17%, 1)',
-  easyBlue: 'hsla(207, 80%, 65%, 1)',
+
   boxShadow: '0 0.15rem 0.5rem 0 hsla(0, 0%, 0%, 0.25)',
 
   funBlue: 'hsla(223, 72%, 37%, 1)',

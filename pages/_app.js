@@ -15,6 +15,7 @@ const GlobalStyle = createGlobalStyle`
     --TorreaBay: hsla(226, 90%, 32%, 1);
     --Thunder: hsla(315, 19%, 13%, 1);
     --background-color: var(--Thunder);
+    --main-background-color: var(--CatskillWhite);
     --text-color: var(--CodGray);
     --link-color: var(--TorreaBay);
   }
@@ -179,9 +180,7 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 const Main = styled.main`
-  /* margin: 0 auto;
-  max-width: var(--max-width);
-  padding: var(--padding); */
+  background-color: var(--main-background-color);
 `;
 
 export default class MyApp extends App {
