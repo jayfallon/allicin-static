@@ -1,6 +1,10 @@
+import ResetPassword from '../components/ResetPassword';
+import Footer from '../components/Footer';
+
 const ResetPasswordPage = () => (
   <div>
-    <h1>Reset Password</h1>
+    <ResetPassword />
+    <Footer />
   </div>
 );
 
