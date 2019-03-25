@@ -1,6 +1,10 @@
+import SignUp from '../components/SignUp';
+import Footer from '../components/Footer';
+
 const SignUpPage = () => (
   <div>
-    <h1>Sign Up</h1>
+    <SignUp />
+    <Footer />
   </div>
 );
 

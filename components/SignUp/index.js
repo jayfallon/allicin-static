@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import AuthStyles, { AuthFormForget } from '../AuthStyles';
+import AuthStyles, { AuthFormAlready } from '../AuthStyles';
 
 const SignIn = () => (
   <AuthStyles>
@@ -15,7 +15,7 @@ const SignIn = () => (
       <div className="auth__form--wrapper">
         <form>
           <fieldset>
-            <legend>Sign In To Your Account</legend>
+            <legend>Sign Up For An Account</legend>
             <div className="auth__form--group">
               <label htmlFor="email">Your Email Address</label>
               <input
@@ -25,15 +25,21 @@ const SignIn = () => (
               />
             </div>
             <div className="auth__form--group">
-              <label htmlFor="password">Your Password</label>
-              <input name="password" type="password" placeholder="" />
+              <label htmlFor="passwordOne">Choose A Password</label>
+              <input name="passwordOne" type="password" placeholder="" />
+            </div>
+            <div className="auth__form--group">
+              <label htmlFor="passwordTwo">Confirm Your Password</label>
+              <input name="passwordTwo" type="password" placeholder="" />
             </div>
             <div className="auth__form--submit">
               <Link href="/home">
-                <button>Sign In</button>
+                <a title="Sign Up">
+                  <button>Sign Up</button>
+                </a>
               </Link>
             </div>
-            <AuthFormForget />
+            <AuthFormAlready />
           </fieldset>
         </form>
       </div>

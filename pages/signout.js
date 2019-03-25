@@ -1,6 +1,8 @@
+import SignOut from '../components/SignOut';
+
 const SignOutPage = () => (
   <div>
-    <h1>Sign Out</h1>
+    <SignOut />
   </div>
 );
 

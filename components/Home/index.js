@@ -1,5 +1,6 @@
 import HomeStyles from './styles';
 import HomeSideNavMenu from './sidenav';
+import PersonalNav from '../PersonalNav';
 
 import Footer from '../Footer';
 
@@ -11,6 +12,7 @@ const Home = () => (
       </nav>
     </div>
     <div className="main__content--wrapper">
+      <PersonalNav />
       <section>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure

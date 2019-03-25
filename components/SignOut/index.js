@@ -1,14 +1,13 @@
 import Link from 'next/link';
 
-import Footer from '../Footer';
-import IndexStyles from './styles';
+import IndexStyles from '../Index/styles';
 
-const Index = () => (
+const SignOut = () => (
   <IndexStyles>
     <section>
       <h1>Allicin</h1>
       <p>Your courseware companion.</p>
-      <h3>Ttitle Here</h3>
+      <h3>You Have Been Signed Out</h3>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea hic numquam
         vitae inventore neque quidem, expedita, ipsa facere mollitia cupiditate
@@ -45,4 +44,4 @@ const Index = () => (
   </IndexStyles>
 );
 
-export default Index;
+export default SignOut;
