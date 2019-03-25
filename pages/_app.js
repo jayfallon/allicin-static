@@ -10,6 +10,7 @@ import { title } from './_document';
 const GlobalStyle = createGlobalStyle`
   :root {
     font-size: 10px;
+    --QuarterPearlLusta: hsla(43, 100%, 99%, 1);
     --CatskillWhite: hsla(171, 33%, 96%, 1);
     --CodGray: hsla(345, 14%, 5%, 1);
     --TorreaBay: hsla(226, 90%, 32%, 1);

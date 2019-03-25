@@ -2,12 +2,17 @@ import styled from 'styled-components';
 
 const PrivacyStyles = styled.section`
   margin: ${props => props.theme.pageMargin};
+  padding: 4rem 0;
   width: ${props => props.theme.pageWidth};
 
   h2 {
-    padding: 2rem 0;
+    background-color: var(--CodGray);
+    margin-bottom: 4rem;
+    padding: 2rem 4rem;
+    color: var(--QuarterPearlLusta);
     font-family: source-serif-pro serif;
     font-size: 2.9rem;
+    text-transform: uppercase;
   }
 
   h3 {
