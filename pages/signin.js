@@ -1,7 +1,11 @@
+import SignIn from '../components/SignIn';
+import Footer from '../components/Footer';
+
 const SignInPage = () => (
-  <div>
-    <h1>Sign In</h1>
-  </div>
+  <>
+    <SignIn />
+    <Footer />
+  </>
 );
 
 export default SignInPage;

@@ -23,6 +23,15 @@ const Index = () => (
         sed.
       </p>
     </section>
+    <section>
+      <ul>
+        <li>
+          <Link href="/signin">
+            <a title="Sign In">Sign In</a>
+          </Link>
+        </li>
+      </ul>
+    </section>
   </IndexStyles>
 );
 
