@@ -6,9 +6,13 @@ const TermsStyles = styled.section`
   padding: 0 0 10rem;
 
   h2 {
-    padding: 2rem 0;
+    background-color: var(--CodGray);
+    margin-bottom: 4rem;
+    padding: 2rem 4rem;
+    color: var(--QuarterPearlLusta);
     font-family: source-serif-pro serif;
     font-size: 2.9rem;
+    text-transform: uppercase;
   }
 
   h3 {

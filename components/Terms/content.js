@@ -35,7 +35,7 @@ const TermsContent = () => (
       capitalization and/or he/she or they, are taken as interchangeable and
       therefore as referring to same.
     </p>
-    <h2>Cookies</h2>
+    <h3>Cookies</h3>
     <p>
       We employ the use of cookies. By using Allicin Static Demo's website you
       consent to the use of cookies in accordance with Allicin Static Demo’s
@@ -48,7 +48,7 @@ const TermsContent = () => (
       those people visiting. Some of our affiliate / advertising partners may
       also use cookies.
     </p>
-    <h2>License</h2>
+    <h3>License</h3>
     <p>
       Unless otherwise stated, Allicin Static Demo and/or it’s licensors own the
       intellectual property rights for all material on Allicin Static Demo. All
@@ -71,7 +71,7 @@ const TermsContent = () => (
       Redistribute content from Allicin Static Demo (unless content is
       specifically made for redistribution).
     </p>
-    <h2>Hyperlinking to our Content</h2>
+    <h3>Hyperlinking to our Content</h3>
     <ol>
       <li>
         The following organizations may link to our Web site without prior
@@ -176,13 +176,13 @@ const TermsContent = () => (
       No use of Allicin Static Demo’s logo or other artwork will be allowed for
       linking absent a trademark license agreement.
     </p>
-    <h2>Iframes</h2>
+    <h3>Iframes</h3>
     <p>
       Without prior approval and express written permission, you may not create
       frames around our Web pages or use other techniques that alter in any way
       the visual presentation or appearance of our Web site.
     </p>
-    <h2>Reservation of Rights</h2>
+    <h3>Reservation of Rights</h3>
     <p>
       We reserve the right at any time and in its sole discretion to request
       that you remove all links or any particular link to our Web site. You
@@ -191,7 +191,7 @@ const TermsContent = () => (
       linking policy at any time. By continuing to link to our Web site, you
       agree to be bound to and abide by these linking terms and conditions.
     </p>
-    <h2>Removal of links from our website</h2>
+    <h3>Removal of links from our website</h3>
     <p>
       If you find any link on our Web site or any linked web site objectionable
       for any reason, you may contact us about this. We will consider requests
@@ -204,7 +204,7 @@ const TermsContent = () => (
       to ensuring that the website remains available or that the material on the
       website is kept up to date.
     </p>
-    <h2>Content Liability</h2>
+    <h3>Content Liability</h3>
     <p>
       We shall have no responsibility or liability for any content appearing on
       your Web site. You agree to indemnify and defend us against all claims
@@ -214,7 +214,7 @@ const TermsContent = () => (
       which infringes, otherwise violates, or advocates the infringement or
       other violation of, any third party rights.
     </p>
-    <h2>Disclaimer</h2>
+    <h3>Disclaimer</h3>
     <p>
       To the maximum extent permitted by applicable law, we exclude all
       representations, warranties and conditions relating to our website and the
@@ -252,9 +252,9 @@ const TermsContent = () => (
       website are provided free of charge, we will not be liable for any loss or
       damage of any nature.
     </p>
-    <h2 />
+    <h3 />
     <p />
-    <h2>Credit & Contact Information</h2>
+    <h3>Credit & Contact Information</h3>
     <p>
       This Terms and conditions page was created at{' '}
       <a href="https://termsandconditionstemplate.com">
