@@ -19,6 +19,7 @@ const SignIn = () => (
             <div className="auth__form--group">
               <label htmlFor="email">Your Email Address</label>
               <input
+                id="email"
                 name="email"
                 type="text"
                 placeholder="yourname@example.com"
@@ -26,11 +27,21 @@ const SignIn = () => (
             </div>
             <div className="auth__form--group">
               <label htmlFor="passwordOne">Choose A Password</label>
-              <input name="passwordOne" type="password" placeholder="" />
+              <input
+                id="passwordOne"
+                name="passwordOne"
+                type="password"
+                placeholder=""
+              />
             </div>
             <div className="auth__form--group">
               <label htmlFor="passwordTwo">Confirm Your Password</label>
-              <input name="passwordTwo" type="password" placeholder="" />
+              <input
+                id="passwordTwo"
+                name="passwordTwo"
+                type="password"
+                placeholder=""
+              />
             </div>
             <div className="auth__form--submit">
               <Link href="/home">
