@@ -6,8 +6,8 @@ const PersonalNav = () => (
     <nav>
       <ul>
         <li>
-          <Link href="/signout">
-            <a title="Sign Out">Sign Out</a>
+          <Link href="">
+            <a title="Skip to Content">Skip to Content</a>
           </Link>
         </li>
       </ul>
