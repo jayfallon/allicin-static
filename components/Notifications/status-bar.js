@@ -16,7 +16,7 @@ const StatusBar = props => (
       </li>
     </ul>
     <ul className="info__wrapper">
-      <li className="work active">
+      <li className="work ">
         <i className="fal fa-edit" />
         <Link href="/home">
           <a title="Home">
@@ -48,7 +48,7 @@ const StatusBar = props => (
           </a>
         </Link>
       </li>
-      <li className="notifications">
+      <li className="notifications active">
         <i className="fal fa-bell" />
         <Link href="/notifications">
           <a title="notifications">

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const HomeStyles = styled.div`
+const GradeStyles = styled.div`
   height: 100vh;
 
   display: flex;
@@ -53,11 +53,12 @@ const HomeStyles = styled.div`
             font-weight: 700;
           }
         }
-        .due_date {
-          background-color: var(--Starship);
+        .grade {
+          background-color: var(--TorreaBay);
           padding: 0.5rem 1rem;
+          color: var(--QuarterPearlLusta);
           flex: 0 0 auto;
-          ul li:nth-child(2) {
+          ul li:nth-child(1) {
             font-size: 4rem;
             line-height: 1.25;
           }
@@ -71,4 +72,4 @@ const HomeStyles = styled.div`
   }
 `;
 
-export default HomeStyles;
+export default GradeStyles;

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const HomeStyles = styled.div`
+const NotificationsStyles = styled.div`
   height: 100vh;
 
   display: flex;
@@ -34,6 +34,7 @@ const HomeStyles = styled.div`
       .class__wrapper {
         background-color: var(--QuarterPearlLusta);
         margin: 0 0 2rem 0;
+        height: 12.2rem;
         border-bottom: 0.2rem solid #d6d7d2;
         display: flex;
         justify-content: flex-start;
@@ -45,13 +46,33 @@ const HomeStyles = styled.div`
           align-items: center;
           flex: 0 0 auto;
         }
+        .avatar {
+          padding: 0;
+          img {
+            height: 12rem;
+          }
+        }
         .meta {
-          padding: 0.5rem 1rem;
+          padding: 0.5rem 1rem 0;
+          width: 50rem;
           flex: 1 0 auto;
           h4 {
             font-size: 2rem;
             font-weight: 700;
           }
+          .time {
+            color: #999;
+            font-size: 1.6rem;
+          }
+        }
+        .method {
+          background-color: var(--Voodoo);
+          padding: 0 2rem;
+          color: var(--QuarterPearlLusta);
+          font-size: 3rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
         }
         .due_date {
           background-color: var(--Starship);
@@ -71,4 +92,4 @@ const HomeStyles = styled.div`
   }
 `;
 
-export default HomeStyles;
+export default NotificationsStyles;

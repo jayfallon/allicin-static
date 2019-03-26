@@ -7,12 +7,7 @@ const PersonalNav = () => (
       <ul>
         <li>
           <Link href="">
-            <a title="Help">Help</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/signout">
-            <a title="Sign Out">Sign Out</a>
+            <a title="Skip to Content">Skip to Content</a>
           </Link>
         </li>
       </ul>
